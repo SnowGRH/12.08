@@ -1,0 +1,62 @@
+
+header{
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: black;
+    color: aqua;
+}
+main{
+    position:static ;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+article{
+    border: 1px solid black;
+    width: 80%;
+}
+footer{
+    background-color: black;
+    color: aqua;
+    position: fixed;
+    bottom: 0.5px;
+    left: 1px;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    top: 110px;
+    right: 20px;
+    border: 1px solid black;
+    width: 10%;
+}
+form{
+    position: relative;
+    display: grid;
+    width: 80%;
+    border: 2px solid black;
+}
+form button{
+    width: 10%;
+}
+form button, label{
+    margin: 15px;
+}
+#szamol{
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+
+#fixform{
+    background-color: black;
+    color: aqua;
+    position: fixed;
+    top: 50%;
+    width: 800px;
+    left:calc(47%  - 400px);
+    
+}
